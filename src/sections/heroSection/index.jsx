@@ -3,7 +3,7 @@ import { PerspectiveCamera } from "@react-three/drei";
 import HackerRoom from "../../components/HackerRoom";
 import { Suspense } from "react";
 import CanvasLoader from "../../components/canvasLoader";
-import { useControls } from "leva";
+import { Leva, useControls } from "leva";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../../constants";
 import Target from "../../components/Target";
@@ -47,6 +47,7 @@ const HeroSection = () => {
       <div className="w-full h-full absolute inset-0">
         <Canvas className="w-full h-full">
           <Suspense fallback={<CanvasLoader />}>
+            <Leva hidden />
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
 
               {/* Pass dynamic position values to HackerRoom */}

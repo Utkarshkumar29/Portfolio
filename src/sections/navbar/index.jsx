@@ -1,6 +1,4 @@
 import { useState } from "react";
-import menu from "../../assets/menu.svg";
-import close from "../../assets/close.svg";
 import { navLinks } from "../../constants/index.jsx";
 
 const NavItems = ({ onClick = () => {} }) => (
@@ -38,7 +36,7 @@ const Navbar = () => {
             aria-label="Toggle menu"
           >
             <img
-              src={isOpen ? close : menu}
+              src={isOpen ? "/assets/close.svg" : "/assets/menu.svg"}
               alt="toggle"
               className="w-6 h-6"
             />
