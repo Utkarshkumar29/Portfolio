@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './sections/navbar';
-import HeroSection from './sections/HeroSection';
+import HeroSection from './sections/HeroSection/index.jsx';
 import AboutSection from './sections/AboutSection';
 import ProjectSection from './sections/ProjectSection';
 import ExperienceSection from './sections/ExperienceSection';
