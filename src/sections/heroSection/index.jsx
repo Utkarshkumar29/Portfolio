@@ -17,7 +17,7 @@ import Button from "../../components/Button";
 
 const HeroSection = () => {
   // Fix: Remove nested object and provide a title string
-  const { positionX, positionY, positionZ, rotationX, rotationY, rotationZ, scale } = useControls("Hacker Room Position", {
+  {/*const { positionX, positionY, positionZ, rotationX, rotationY, rotationZ, scale } = useControls("Hacker Room Position", {
     positionX: { value: 2.5, min: -10, max: 10 },
     positionY: { value: 2.5, min: -10, max: 10 },
     positionZ: { value: 2.5, min: -10, max: 10 },
@@ -25,7 +25,7 @@ const HeroSection = () => {
     rotationY: { value: 2.5, min: -10, max: 10 },
     rotationZ: { value: 2.5, min: -10, max: 10 },
     scale: { value: 0.5, min: 0.1, max: 2 }
-  })
+  })*/}
 
   const isSmall=useMediaQuery({ query: "(max-width: 480px)" })
   const isMobile=useMediaQuery({ query: "(max-width: 768px)" })

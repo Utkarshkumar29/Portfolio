@@ -14,7 +14,7 @@ const projectCount = myProjects.length;
 
 const ProjectSection = () => {
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
-
+console.log(projectCount)
   const handleNavigation = (direction) => {
     setSelectedProjectIndex((prevIndex) => {
       if (direction === 'previous') {
