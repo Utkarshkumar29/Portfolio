@@ -15,7 +15,7 @@ import Button from "../../components/Button";
 
 
 
-const HeroSection = () => {
+const HeroSections = () => {
   // Fix: Remove nested object and provide a title string
   {/*const { positionX, positionY, positionZ, rotationX, rotationY, rotationZ, scale } = useControls("Hacker Room Position", {
     positionX: { value: 2.5, min: -10, max: 10 },
@@ -83,5 +83,5 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default HeroSections;
  
