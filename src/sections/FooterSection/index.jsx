@@ -8,16 +8,31 @@ const FooterSection = () => {
         </div>
   
         <div className="flex gap-3">
-          <div className="social-icon">
-            <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-          </div>
-          <div className="social-icon">
-            <img src="/assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2" />
-          </div>
-          <div className="social-icon">
-            <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
-          </div>
-        </div>
+        <a
+          href="https://github.com/Utkarshkumar29"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon"
+        >
+          <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/utkarsh-kumar29/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon"
+        >
+          <img src="/assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2" />
+        </a>
+        <a
+          href="https://www.instagram.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon"
+        >
+          <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
+        </a>
+      </div>
   
         <p className="text-white-500">© 2025 UTkarsh Kumar. All rights reserved.</p>
       </footer>
