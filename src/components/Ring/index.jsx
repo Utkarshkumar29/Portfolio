@@ -1,5 +1,5 @@
 import { useGSAP } from '@gsap/react';
-import { Center, useTexture } from '@react-three/drei';
+import { useTexture } from '@react-three/drei';
 import gsap from 'gsap';
 import { useCallback, useRef } from 'react';
 
